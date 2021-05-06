@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+ 
+        <title>Shop</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/productdetails.css">
+    
+    </head>
+    <body>
+        <script src="jquery/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="jquery/shrink.js"></script>
+         <script src="basket.js"></script>
+
+<nav class="navbar navbar-default sticky-top navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span><span class="icon-bar"></span></button>
+
+ 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse collapse" id="defaultNavbar1">
+<ul class="navbar-nav">
+<div id="Logo">
+<div class="logo"></div>
+</div>
+<li class="nav-item">
+        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+        <li class="nav-item"> <a class="nav-link" href="shop.html">Shop</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="">About us</a> </li>
+      </ul>
+
+<div class="cart-button">
+  <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger float-right">Clear Cart</button>
+</div>
+    
+</div>
+    </div>
+</div>
+</nav>
+
+
+
+
+
+
+
+<div class="orange-bck">
+        <div class="container">
+
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                     <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/Baby Potatoes.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Baby Potatoes</a> <span class="rated">Fruit and Vegetables</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£3.99</a></div>
+                 </div>
+             </figcaption>
+         </div>
+         <div class="bottom-wrap"> <a href="#" data-name="Baby Potatoes" data-price="3.99" class="btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary float-left" data-toggle="modal" data-target="#order"> View More </a> </div>
+         </div>
+     </figure>
+ </div>
+                </div>
+                <div class="col-lg-6">
+                      <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/CushelleRolls.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Cushelle Toilet Roll</a> <span class="rated">Home Care and Cleaning</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£6.40</a></div>
+                 </div>
+             </figcaption>
+         </div>
+        <div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary float-left" data-toggle="modal" data-target="#order1"> View More </a></div>
+         </div>
+     </figure>
+ </div>  
+            </div>
+</div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                                 <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/Warburtons Toast.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-12"> <a href="#" class="title" data-abc="true">Warburtons Toastie Thick Sliced White Bread</a> <span class="rated">Bakery</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£1.15</a></div>
+                 </div>
+             </figcaption>
+         </div>
+<div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#order2"> View More </a></div>
+         </div>
+     </figure>
+ </div>  
+                </div>
+                <div class="col-lg-6">
+                                  <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/Colgate Total Original.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Colgate Total Original</a> <span class="rated">Home Care and Cleaning</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£3.50</a></div>
+                 </div>
+             </figcaption>
+         </div>
+<div class="bottom-wrap"> <a href="#" data-name="Colgate" data-price="3.50" class="add-to-cart btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#order3"> View More </a></div>
+         </div>
+     </figure>
+ </div> 
+                </div>
+            </div>
+<div class="row">
+<div class="col-lg-6">
+              <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/LailaBasmati.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Laila Pure Basmati rice</a> <span class="rated">Rice, Pasta & Pulses</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£8</a></div>
+                 </div>
+             </figcaption>
+         </div>
+<div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary float-left" data-toggle="modal" data-target="#order4"> View More </a></div>
+         </div>
+     </figure>
+ </div> 
+
+
+</div>
+<div class="col-lg-6">
+                 <div class="container d-flex justify-content-center">
+     <figure class="card card-product-grid card-lg"> <a href="#" class="img-wrap" data-abc="true"> <img src="images/SilverSpoon Sugar.jpg"> </a>
+         <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-12"> <a href="#" class="title" data-abc="true">Silver Spoon White Granulated Sugar</a> <span class="rated">Home Care and Cleaning</span> </div>
+ </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£0.65</a></div>
+                 </div>
+             </figcaption>
+         </div>
+<div class="bottom-wrap"> <a href="#" class="btn btn-primary float-right">Add To Basket </a>
+         <div class="price-wrap"> <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#order5"> View More </a></div>
+         </div>
+     </figure>
+ </div>                 
+            
+
+        </div>
+    </div>
+
+    <div id="order" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/Baby Potatoes.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Baby Potatoes 1KG</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true"></a> <span class="rated">Our Ocado baby potatoes have a bright, translucent skin and firm feel. 
+This pack contains uniform sized tubers. These fresh potatoes have a firm texture when cooked and a slightly buttery mouth feel. They are ideal for boiling and can be roasted too.
+<span> </div>
+                     </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="order1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/CushelleRolls.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Cushelle Toilet Roll</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true"></a>£6.40</a> <span class="rated">Every sheet of Cushelle Ultra Quilted Coconut has been enriched with softening balm for cushiony softness and smoothness.
+
+We've also delicately scented each core with a tropical coconut scen</span> </div>
+                     </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="order2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/Warburtons Toast.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Warburtons Thick Sliced White Bread</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£1.15</a> <span class="rated">Great for Toasting, Low Fat and Sugars, Source of Protein, Vegetarian Society Approved, Kosher - KLBD, Halal - HFA Approved.</span> </div>
+                     </div>
+<div class="row">
+<div class="col-md-9 col-xs-9"> <h1 class="title" data-abc="true">Ingredients</h1> <span class="rated">Ingredients
+Wheat Flour [with Calcium, Iron, Niacin (B3) and Thiamin (B1)], Water, Yeast, Salt, Vegetable Oil (Rapeseed, Sustainable Palm), Soya Flour, Preservative: Calcium Propionate, Emulsifiers: E481, E472e, Flour Treatment Agent: Ascorbic Acid (Vitamin C)</span> </div>
+                    </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="order3" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/Colgate Total Original.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Colgate Total Original</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#"b class="title" data-ac="true">£3.50</a> <span class="rated"> 
+    <div class="w-100"></div>
+Colgate Total Original toothpaste proactively fights bacteria not just on your teeth, but also your tongue, cheeks and gums for up to 12 hours* for whole mouth health**
+    <div class="w-100"></div>
+<div class="title" data-ac="true">Ingredients</div>
+    <div class="w-100"></div>
+
+Glycerin, Aqua, Hydrated Silica, Sodium Lauryl Sulfate, Arginine, Aroma, Cellulose Gum, Zinc Oxide, Poloxamer 407, Zinc Citrate, Tetrasodium Pyrophosphate, Xanthan Gum, Benzyl Alcohol, 
+Cocamidopropyl Betaine, Sodium Fluoride, Sodium Saccharin, Phosphoric Acid, Sucralose, CI 77891
+</span> </div>
+                     </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="order4" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/LailaBasmati.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">Laila Pure Basmati Rice</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£8</a> <span class="rated">Our Basmati Rice is perfect for curries or as an accompaniment to any meat, vegetable or fish dish. 
+It's aged to intensify the flavour and taste.
+ It's naturally packed with vitamins and minerals, 
+so an excellent choice for those seeking a healthy diet.</span> </div>
+                     </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="order5" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Order</h4>
+                    <button type="orderButton" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+    <img src="images/SilverSpoon Sugar.jpg" class="img-fluid"> </a>
+                    <figcaption class="info-wrap">
+             <div class="row">
+                 <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true"></a>Silver Spoon White Granulated Sugar</a>
+                 </div>
+         </figcaption>
+         <div class="bottom-wrap-payment">
+             <figcaption class="info-wrap">
+                 <div class="row">
+                     <div class="col-md-9 col-xs-9"> <a href="#" class="title" data-abc="true">£0.65</a> <span class="rated">Proudly grown in Britain, For your everyday ta-dah!
+    <div class="w-100"></div>
+Storage:
+Sugar is a natural preservative so store me in a cool dry place so I keep indefinitely.
+
+Usage:
+250 Servings
+</span> </div>
+                     </div>
+             </figcaption>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-dark" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./shoppingCart.js"></script>
+
+
+<br>
+<!--Footer with social media icons-->
+<footer>© G28 Supermarket 2021 - Connect with us on... <a href="https://en-gb.facebook.com/">
+<img src="images/FB-f-Logo__blue_50.png" width="50" height="50" class="social"></a> <a href="https://twitter.com">
+<img src="images/Twitter_Logo_White_On_Blue.png" width="52" height="50" class="social"></a> <a href="https://www.instagram.com">
+<img src="images/glyph-logo_May2016.png" width="50" height="50" class="social"></a></footer>
+</body>
+</html>
